@@ -9,6 +9,14 @@ jwt:
   secret: fitting-secret-key-2026-microservices-tienda-ropa-muy-larga
   expiration-ms: 86400000   # 24 horas en milisegundos
 
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+
 user:
   service:
     url: http://localhost:8087
