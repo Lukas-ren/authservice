@@ -1,4 +1,7 @@
 package com.fitting.authservice.entity;
 
-public class UserRole {
+public enum UserRole {
+    ADMIN,
+    CUSTOMER,
+    STAFF
 }
